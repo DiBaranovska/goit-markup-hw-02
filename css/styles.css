@@ -74,7 +74,6 @@ body {
 
 .title {
   background-color: var(--dark-background-color);
-  width: 1600px;
   height: 600px;
 }
 
@@ -83,14 +82,11 @@ body {
   font-size: 44px;
   line-height: 1.36;
   letter-spacing: 0.06em;
+  text-transform: uppercase;
   color: var(--white-text-color);
 }
 
 .order-btn {
-  width: 216px;
-  height: 50px;
-  left: 692px;
-  top: 430px;
   background-color: var(--accent-color);
   border: none;
   font-family: inherit;
@@ -109,7 +105,6 @@ body {
 }
 
 .features {
-  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
@@ -121,9 +116,8 @@ body {
 }
 
 .title-of-part {
-  font-weight: 700;
   font-size: 36px;
-  line-height: 1.17px;
+  line-height: 1.17;
   text-align: center;
   color: var(--dark-text-color);
 }
@@ -150,7 +144,6 @@ body {
 
 .contact-link {
   font-style: normal;
-  font-weight: 400;
   line-height: 1.71;
   color: var(--footer-contact-color);
 }
@@ -183,7 +176,6 @@ body {
 }
 
 .work-examples {
-  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
